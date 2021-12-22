@@ -1,0 +1,127 @@
+body{
+    margin:0;
+    padding:0;
+    background:#F3EAF4
+}
+
+.name{
+    width: 100%;
+    height: 300px;
+    background: #cfa0b2;
+    border-color: white;
+
+}
+
+.name .contenido {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left:25%;
+    
+}
+.name .contenido .parrafo1{
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.name .contenido .parrafo2{
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    border-bottom: 4px rgb(233, 218, 218) dashed;
+}
+.name .img{
+    position: absolute;
+    top:6%;
+    left:2%;
+    width: 180px;
+    height:180px;
+    border-radius: 100%;
+    overflow: hidden;
+
+}
+.name .img img{
+    width: 180px;
+    height: 300px;
+}
+.name .foto{
+    position: absolute;
+    top:6%;
+    right:10%;
+    width: 180px;
+    height:180px;
+    overflow: hidden;
+}
+.name .foto img{
+    width: 180px;
+    height: 300px;
+}
+
+.info{
+    width: 90%;
+    height: auto;
+    background: #cfa0b2;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.info .titleinfo {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px rgb(233, 218, 218) dashed;
+}
+
+.info .literal{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+    
+}
+.info .respuesta{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+ul{
+    list-style-type: square;
+    color:black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: large;
+}
+#main-container{
+    width:5000px;
+    
+
+}
+.table{
+    background-color:white;
+    width: 200%;
+    text-align: center;
+   
+    
+}
+th,td{
+    border: solid 1px black;
+    padding: 20px;
+    color:black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: normal;
+    font-weight: bolder;
+    
+}
+thead{
+    background-color: #8F9491;
+    
+}
